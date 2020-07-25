@@ -13,4 +13,4 @@ Tools used:
   3. D3 Library
   4. D3 Annotations
   
-To get started, click [here](scene1.html).
+To get started, click [here](https://mkp5.github.io/narrative-viz/scene1.html).
