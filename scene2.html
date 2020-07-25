@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Male vs Female Life Expectancy at birth.</title>
+  <link rel="stylesheet" type="text/css" href="resources/style.css">
+  <!-- Load d3 library v5 -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <!-- Load d3-annotation library -->
+  <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+</head>
+<body onload='init();'>
+
+  <div id="header">
+    <h2>Male vs Female Life Expectancy at birth across the world.</h2>
+  </div>
+  <table>
+    <tr>
+      <td style="text-align:right;"><a href="scene1.html" class="next">World &raquo;</a><td style="text-align:right;"><a href="scene3.html" class="next">Country &raquo;</a>
+      </td>
+    </tr>
+  </table>
+
+  <div class="row">
+  <div class="column" style="text-align: left;">
+  <p><b>Definition: </b>Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.</p>
+  <p>
+    <b>Statistical Concept and Methodology: </b>
+      Women generally live longer than males – on average by 4 to 6 years. This difference is partly due to an inherent biological advantage for the female, but it also reflects behavioural differences between men and women. Life expectancy for women also varies across regions and income levels of countries. For instance, life expectancy for women is more than 80 years in at least 35 countries. In the WHO African Region it was estimated at only 54 years and in some countries, particularly in East and Southern Africa, the lack of improvement in life expectancy is mainly due to HIV/AIDS and maternal mortality.
+      <br/>Newborn girls are more likely to survive to their first birthday than newborn boys are. This advantage continues through­out life: women tend to have lower rates of mortality at all age. Women’s longevity advantage becomes most apparent in old age. This may be the result of lower lifetime risk behaviours such as smoking and alcohol use. Alternatively, it may be the effect of harder-to-identify biological advantages that result in relatively lower rates of cardiovascular disease and cancer in women. The gap in life expectancy between women and men is narrowing to some extent in some developed coun­tries. This may be due to increased smoking among women and falling rates of cardio­vascular disease among men. It is also important to note that the extra years of life for women are not always lived in good health.
+    </p>
+
+    <p><b>Aggregation Method: </b>Weighted average</p>
+  </div>
+  <div class="column">
+    <div id="scene_2" style="width: 960px;text-align: center;">
+      <div id="title"><u>Compare life expectancy at birth: Male vs Female.</u><br/>
+            <span class="legend-female"></span> Female &nbsp;<span class="legend-male"></span> Male &nbsp;
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+  <script src="d3scripts/scene2.js"></script>
+</body>
+</html>

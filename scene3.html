@@ -1,0 +1,53 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Life Expectancy at Birth</title>
+  <link rel="stylesheet" type="text/css" href="resources/style.css">
+  <!-- Load d3 library v5 -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <!-- Load d3-annotation library -->
+  <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+</head>
+<body onload='init();'>
+  <div id="header">
+    <h2>Explore Life Expectancy for each Country</h2>
+  </div>
+  <table>
+    <tr>
+      <td style="text-align:right;"><a href="scene1.html" class="next">World</a>
+      <td style="text-align:right;"><a href="scene2.html" class="next" style="width:120px">Female vs Male</a>
+      </td>
+    </tr>
+  </table>
+
+  <div class="row">
+  <div class="column" style="text-align: left;">
+    <p><b>Definition: </b>This is a comparison of life expectancy of each country against the world population.
+  This helps to observe the change in trend of this property against the rest of the world.</p>
+    <p>
+      <b>Years of healthy life can be increased 5-10 years</b> Worldwide, healthy life expectancy can be increased by 5-10 years if governments and individuals make combined efforts against the major health risks in each region, the World Health Organization (WHO) says in its new yearly report.
+      <br/>
+      As per WHO' World Health Report 2002, reducing the below risks can lower the mortality rate and boost the life expectancy of mankind.
+      <ul style="font-weight: bold;font-size: 0.9rem;">
+        <li>Underweight/under-nutrition</li>
+        <li>Unsafe sex</li>
+        <li>High blood pressure and cholesterol</li>
+        <li>Tobacco Use</li>
+        <li>Unsafe Water and Sanitation</li>
+        <li>Iron deficiency</li>
+      </ul>
+
+    </p>
+  </div>
+  <div class="column">
+    <div id="scene_3" style="width: 960px;">
+      <span>-------</span> World &nbsp;<span class="legend-country"></span> Country &nbsp;
+        <div style="text-align:left;padding-left: 400;"><select id="drop_down"></select></div>
+    </div>
+  </div>
+</div>
+
+  <script src="d3scripts/scene3.js"></script>
+</body>
+</html>
