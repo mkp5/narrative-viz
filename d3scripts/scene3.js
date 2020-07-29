@@ -14,6 +14,7 @@ async function init() {
   }
   function mouseOver() {
     focus.style("opacity", 1);
+    focusWorld.style("opacity", 1);
     focusText.style("opacity",1);
     focusTextworld.style("opacity",1);
   }
@@ -23,17 +24,22 @@ async function init() {
     var tmp = data.filter(function(d){return d.country==selected1})
     var i = bisect(tmp, xtemp, 1);
     selectedData = tmp[i];
-    console.log(selectedData);
+    console.log(selectedData.year);
+    console.log('hello');
+    var ageTmp = worldjson[selectedData.year];
+    //console.log(y(selectedData.value)+3);
     focus.attr("cx", x(selectedData.year)).attr("cy", y(selectedData.value)+3).attr('r',4);
+    focusWorld.attr("cx", x(selectedData.year)).attr("cy", y(ageTmp)+3).attr('r',4);
     var tm = parseFloat(selectedData.value);
     console.log(tm.toFixed(2));
-    focusText.html("Year:" + selectedData.year + ";  " + selectedCountry+":" + tm.toFixed(2) +" yrs").attr("x", x(selectedData.year) - 25).attr("y", y(selectedData.value) + 40);
-    focusTextworld.html("World:" + worldjson[selectedData.year]+" yrs.").attr("x", x(selectedData.year) - 25).attr("y", y(selectedData.value) + 75);
+    focusText.html("In " + selectedData.year + " " + selectedCountry+": " + tm.toFixed(2) +" yrs").attr("x", 600).attr("y", 420);
+    focusTextworld.html("In " + selectedData.year + " World: " + worldjson[selectedData.year]+" yrs.").attr("x", 600).attr("y", 400);
     //console.log(worlddata);
   }
 
   function mouseOut() {
     focus.style("opacity", 0);
+    focusWorld.style("opacity", 0);
     focusText.style("opacity", 0);
     focusTextworld.style("opacity", 0);
   }
@@ -93,10 +99,11 @@ async function init() {
 
   var bisect = d3.bisector(function(d) { return d.year; }).left;
 
-  var focus = svg.append('g').append('circle').style("fill", "black").attr("stroke", "black").attr('r', 4).style("opacity", 0);
+  var focus = svg.append('g').append('circle').style("fill", "blue").attr("stroke", "blue").attr('r', 4).style("opacity", 0);
+  var focusWorld = svg.append('g').append('circle').style("fill", "black").attr("stroke", "black").attr('r', 4).style("opacity", 0);
 
   var focusText = svg.append('g').append('text').style("opacity", 0).attr("text-anchor", "left").attr("alignment-baseline", "middle")
-      .attr("fill", 'black')
+      .attr("fill", 'blue')
   var focusTextworld = svg.append('g').append('text').style("opacity", 0).attr("text-anchor", "left").attr("alignment-baseline", "middle")
       .attr("fill", 'black')
   d3.select("#drop_down").on("change", function(d) {

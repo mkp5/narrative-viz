@@ -1,7 +1,6 @@
 async function init() {
   var margins = { top: 50, right: 100, bottom: 80, left: 50 },
     width = 960 - margins.left - margins.right,
-    //width = 960  - margins.left,
     height = 650 - margins.top - margins.bottom;
 
   var svg = d3.select("#scene_2")
@@ -42,16 +41,31 @@ async function init() {
       age = d.age;
     })
 
+      var data_male_json = {};
+  var i;
+    for (i = 0; i < data_male.length; i++) {
+      data_male_json[data_male[i].year] = data_male[i].age;
+    }
+    //console.log(data_male_json);
+
+
     svg.append("path").attr("transform", "translate(10,0 )").datum(data_male).attr("fill", "none").attr("stroke", "blue")
       .attr("stroke-width", 2)
       .attr("d", d3.line().x(function (d) { return x(d.year) }).y(function (d) { return y(d.age) })
-      )
+      );
 
     const data_female = await d3.csv("./resources/female-life-expectancy.csv");
     data_female.forEach(function (d) {
       year = d.year;
       age = d.age;
-    })
+    });
+
+          var data_female_json = {};
+  var i;
+    for (i = 0; i < data_female.length; i++) {
+      data_female_json[data_female[i].year] = data_female[i].age;
+    }
+    //console.log(data_female_json);
 
     svg.append("path").attr("transform", "translate(10,0 )").datum(data_female).attr("fill", "none").attr("stroke", "purple").attr("stroke-width", 2.5)
       .attr("d", d3.line().x(function (d) { return x(d.year) }).y(function (d) { return y(d.age) }));
@@ -61,4 +75,49 @@ async function init() {
     .attr("y", 350)
     .text("1.Female Life expectancy is higher than Male;2.Both Male and Female have increasing trend.")
     .style("font-size", "15px");
+
+
+
+    var focus = svg.append('g').append('circle').style("fill", "black").attr("stroke", "black").attr('r', 4).style("opacity", 0);
+    var focusfemale = svg.append('g').append('circle').style("fill", "purple").attr("stroke", "purple").attr('r', 4).style("opacity", 0);
+
+  var focusTextMale = svg.append('g').append('text').style("opacity", 0).attr("text-anchor", "left").attr("alignment-baseline", "middle")
+      .attr("fill", 'blue');
+  var focusTextFemale = svg.append('g').append('text').style("opacity", 0).attr("text-anchor", "left").attr("alignment-baseline", "middle")
+      .attr("fill", 'purple');
+
+        svg.append('rect').style("fill", "none").style("pointer-events", "all").attr('width', width).attr('height', height)
+    .on('mousemove', mouseMove).on('mouseout', mouseOut).on('mouseover', mouseOver);
+
+function mouseOver() {
+    focus.style("opacity", 1);
+    focusfemale.style("opacity", 1);
+    focusTextMale.style("opacity",1);
+    focusTextFemale.style("opacity",1);
+  }
+
+  function mouseMove() {
+    var xtemp = x.invert(d3.mouse(this)[0]);
+    var yearTmp = parseInt(xtemp,10);
+    console.log(yearTmp);
+    var fageTmp = data_female_json[yearTmp];
+    var mageTmp = data_male_json[yearTmp];
+    console.log(fageTmp);
+    console.log(mageTmp);
+    var ftmp = parseFloat(fageTmp);
+    var mtmp = parseFloat(mageTmp);
+    focus.attr("cx", x(yearTmp)).attr("cy", y(mageTmp)+3).attr('r',4);
+    focusfemale.attr("cx", x(yearTmp)).attr("cy", y(fageTmp)+3).attr('r',4);
+    focusTextMale.html("In " + yearTmp + "- Male:" + mtmp.toFixed(2) +" yrs").attr("x", x(yearTmp) - 25).attr("y", y(mageTmp) + 40);
+    focusTextFemale.html("In " + yearTmp + "- Female:" + ftmp.toFixed(2) +" yrs").attr("x", x(yearTmp) - 25).attr("y", y(mageTmp) + 20);
+    //console.log(worlddata);
+  }
+
+  function mouseOut() {
+    focus.style("opacity", 0);
+    focusfemale.style("opacity", 0);
+    focusTextFemale.style("opacity", 0);
+    focusTextMale.style("opacity", 0);
+  }
+
 }
