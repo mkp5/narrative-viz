@@ -1,4 +1,5 @@
 async function init() {
+  var selectedCountry = 'Afghanisthan';
   var margins = { top: 50, right: 100, bottom: 80, left: 50 },
     width = 960 - margins.left - margins.right,
     height = 650 - margins.top - margins.bottom;
@@ -6,6 +7,8 @@ async function init() {
   function reloadData(selectedGroup) {
     console.log('reload data for selected country');
     var dataFilter = data.filter(function(d){return d.country==selectedGroup});
+    console.log('selectedGroup'+selectedGroup);
+    selectedCountry = selectedGroup;
     line.datum(dataFilter).transition().duration(1000).attr("d", d3.line().x(function(d) { return x(d.year) }).y(function(d) { return y(+d.value) }))
         .attr("stroke", "blue")
   }
@@ -22,8 +25,10 @@ async function init() {
     selectedData = tmp[i];
     console.log(selectedData);
     focus.attr("cx", x(selectedData.year)).attr("cy", y(selectedData.value)+3).attr('r',4);
-    focusText.html("Year:" + selectedData.year + ";  " + "Country LE:" + selectedData.value).attr("x", x(selectedData.year) - 25).attr("y", y(selectedData.value) + 40);
-    focusTextworld.html("World LE:" + worldjson[selectedData.year]).attr("x", x(selectedData.year) - 25).attr("y", y(selectedData.value) + 75);
+    var tm = parseFloat(selectedData.value);
+    console.log(tm.toFixed(2));
+    focusText.html("Year:" + selectedData.year + ";  " + selectedCountry+":" + tm.toFixed(2) +" yrs").attr("x", x(selectedData.year) - 25).attr("y", y(selectedData.value) + 40);
+    focusTextworld.html("World:" + worldjson[selectedData.year]+" yrs.").attr("x", x(selectedData.year) - 25).attr("y", y(selectedData.value) + 75);
     //console.log(worlddata);
   }
 

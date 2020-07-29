@@ -1,3 +1,27 @@
+
+.legend-female{
+  height: 12px;
+  width: 12px;
+  background-color: purple;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.legend-male{
+  height: 12px;
+  width: 12px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.legend-country{
+  height: 12px;
+  width: 12px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+}
 body {
   height: 100%;
   background: #f2f3f6;
@@ -33,18 +57,12 @@ h2 {
   float: left;
   width: 30%;
 }
-
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-.Heading {
-  border: 2.5px outset black;
-  background-color: lightblue;
-  text-align: center;
-  }
+
 
 .next {
     background-color: gray;
@@ -78,29 +96,6 @@ td{
   font-weight: bold;
 }
 
-.legend-female{
-  height: 12px;
-  width: 12px;
-  background-color: purple;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.legend-male{
-  height: 12px;
-  width: 12px;
-  background-color: blue;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.legend-country{
-  height: 12px;
-  width: 12px;
-  background-color: blue;
-  border-radius: 50%;
-  display: inline-block;
-}
 p {
   font-size: .9rem;
   margin: 0 0 20px; }

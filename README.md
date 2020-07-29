@@ -11,6 +11,5 @@ Tools used:
   1. HTML
   2. CSS.
   3. D3 Library
-  4. D3 Annotations
   
 To get started, click [here](https://mkp5.github.io/narrative-viz/scene1.html).

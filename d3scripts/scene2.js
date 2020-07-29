@@ -54,26 +54,11 @@ async function init() {
     })
 
     svg.append("path").attr("transform", "translate(10,0 )").datum(data_female).attr("fill", "none").attr("stroke", "purple").attr("stroke-width", 2.5)
-      .attr("d", d3.line().x(function (d) { return x(d.year) }).y(function (d) { return y(d.age) })
-      );
-
-    //Annotation for highlighting observation.
-    const annotations = [
-      {
-        note: {
-        label: "1. Female Life expectancy is higher than Male. 2. Female and Male have increasing life expectancy over the period.",
-        title: "Observation",
-        align: "left",
-        wrap: 250,
-        padding: 10
-        },
-        color: ["black"],
-            x: (width / 2) + 40,
-            y: (height / 2) - 5,
-            dy: 10,
-            dx: 10
-          }
-    ]
-    const makeAnnotations = d3.annotation().annotations(annotations)
-    svg.append("g").call(makeAnnotations)
+      .attr("d", d3.line().x(function (d) { return x(d.year) }).y(function (d) { return y(d.age) }));
+   svg
+    .append("text")
+    .attr("x", 225)
+    .attr("y", 350)
+    .text("1.Female Life expectancy is higher than Male;2.Both Male and Female have increasing trend.")
+    .style("font-size", "15px");
 }

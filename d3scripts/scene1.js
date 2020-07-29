@@ -43,23 +43,10 @@ async function init() {
       .x(function (d) { return x(d.year) })
       .y(function (d) { return y(d.age) })
     )
-
-  const annotations = [
-    {
-      note: {
-      title: "Observation:",
-      label: "Increasing trend in life expectancy (at birth) across the world.",
-      align: "middle",
-      wrap: 250,
-      padding: 10
-    },
-    color: ["blue"],
-      x: (width / 2) - 20,
-      y: (height / 2) - 40,
-      dy: 50,
-      dx: 50
-     }
-  ]
-  const makeAnnotations = d3.annotation().annotations(annotations)
-  svg.append("g").call(makeAnnotations)
+  svg
+    .append("text")
+    .attr("x", 300)
+    .attr("y", 300)
+    .text("Observation:Increasing trend in life expectancy (at birth) across the world.")
+    .style("font-size", "15px");
 }
