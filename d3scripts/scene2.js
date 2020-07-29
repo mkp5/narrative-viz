@@ -71,8 +71,8 @@ async function init() {
       .attr("d", d3.line().x(function (d) { return x(d.year) }).y(function (d) { return y(d.age) }));
    svg
     .append("text")
-    .attr("x", 225)
-    .attr("y", 350)
+    .attr("x", 25)
+    .attr("y", 35)
     .text("1.Female Life expectancy is higher than Male;2.Both Male and Female have increasing trend.")
     .style("font-size", "15px");
 
@@ -108,8 +108,8 @@ function mouseOver() {
     var mtmp = parseFloat(mageTmp);
     focus.attr("cx", x(yearTmp)).attr("cy", y(mageTmp)+3).attr('r',4);
     focusfemale.attr("cx", x(yearTmp)).attr("cy", y(fageTmp)+3).attr('r',4);
-    focusTextMale.html("In " + yearTmp + "- Male:" + mtmp.toFixed(2) +" yrs").attr("x", x(yearTmp) - 25).attr("y", y(mageTmp) + 40);
-    focusTextFemale.html("In " + yearTmp + "- Female:" + ftmp.toFixed(2) +" yrs").attr("x", x(yearTmp) - 25).attr("y", y(mageTmp) + 20);
+    focusTextMale.html("In " + yearTmp + "- Male:" + mtmp.toFixed(2) +" yrs").attr("x", 600).attr("y", + 320);
+    focusTextFemale.html("In " + yearTmp + "- Female:" + ftmp.toFixed(2) +" yrs").attr("x", 600).attr("y", + 300);
     //console.log(worlddata);
   }
 

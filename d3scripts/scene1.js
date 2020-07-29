@@ -58,7 +58,7 @@ async function init() {
      var focus = svg.append('g').append('circle').style("fill", "black").attr("stroke", "black").attr('r', 4).style("opacity", 0);
 
   var focusText = svg.append('g').append('text').style("opacity", 0).attr("text-anchor", "left").attr("alignment-baseline", "middle")
-      .attr("fill", 'black');
+      .attr("fill", 'brown');
     console.log(focus);
 
         svg.append('rect').style("fill", "none").style("pointer-events", "all").attr('width', width).attr('height', height)
@@ -76,7 +76,7 @@ function mouseOver() {
     var ageTmp = worldjson[parseInt(xtemp,10)];
     console.log(ageTmp);
     focus.attr("cx", x(yearTmp)).attr("cy", y(ageTmp)+3).attr('r',4);
-    focusText.html("In " + yearTmp + " Life Expectancy is:" + ageTmp +" yrs").attr("x", x(yearTmp) - 25).attr("y", y(ageTmp) + 40);
+    focusText.html("In " + yearTmp + " Life Expectancy is: " + ageTmp +" yrs").attr("x", 570).attr("y", 400);
   }
 
   function mouseOut() {

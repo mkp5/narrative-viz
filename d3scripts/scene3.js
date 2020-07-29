@@ -114,4 +114,10 @@ async function init() {
   svg.append('rect').style("fill", "none").style("pointer-events", "all").attr('width', width).attr('height', height)
     .on('mousemove', mouseMove).on('mouseout', mouseOut).on('mouseover', mouseOver);
 
+  svg.append("text")
+    .attr("x", 25)
+    .attr("y", 35)
+    .text("Comparison of each country with World data.")
+    .style("font-size", "15px");
+
 }
