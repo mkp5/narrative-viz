@@ -5,7 +5,8 @@ This project is for presenting the change of trends in life expectancy of humans
 
 1. Life Expectancy across the World.
 2. Compare life expectancy between males and females.
-3. Compare the life expectancy of a country against the trend in the world for a given year.
+3. Compare life expectancy across different regions.
+4. Compare the life expectancy of a country against the trend in the world for a given year.
 
 Tools used:
   1. HTML
