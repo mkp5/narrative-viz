@@ -35,10 +35,10 @@ async function init() {
 
   svg.append("path")
   .attr("transform", "translate(10,0)")
-    .datum(data)
+    .datum(data).transition().duration(700)
     .attr("fill", "none")
     .attr("stroke", "black")
-    .attr("stroke-width", 2.5)
+    .attr("stroke-width", 2)
     .attr("d", d3.line()
       .x(function (d) { return x(d.year) })
       .y(function (d) { return y(d.age) })
