@@ -151,4 +151,11 @@ async function init() {
       .y(function (d) { return y(d.age) })
     );
 
+    svg
+    .append("text")
+    .attr("x", 300)
+    .attr("y", 400)
+    .text("Obs:North America has highest life expectancy and Africa has the lowest.")
+    .style("font-size", "15px");
+
 }
