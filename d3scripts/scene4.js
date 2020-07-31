@@ -197,8 +197,8 @@ async function init() {
     svg
     .append("text")
     .attr("x", 25)
-    .attr("y", 25)
-    .text("Obs:North America has highest life expectancy and Africa has the lowest.")
+    .attr("y", 9)
+    .text("1.North America has highest life expectancy and Africa has the lowest.")
     .style("font-size", "15px").style("color", "green");
 
 
@@ -274,13 +274,13 @@ async function init() {
     focusRed.attr("cx", x(yearTmp)).attr("cy", y(asiatmp)+3).attr('r',4);
     focusBlack.attr("cx", x(yearTmp)).attr("cy", y(americatmp)+3).attr('r',4);
 
-    focusTextBlue.html("In " + yearTmp + "- Africa:" + africatmp.toFixed(2) +" yrs").attr("x", 600).attr("y", 440);
-    focusTextOrange.html("In " + yearTmp + "- Latin Americas:" + latintmp.toFixed(2) +" yrs").attr("x", 600).attr("y", 400);
-    focusTextMagenta.html("In " + yearTmp + "- Oceania:" + oceaniatmp.toFixed(2) +" yrs").attr("x", 600).attr("y", 360);
-    focusTextGreen.html("In " + yearTmp + "- Europe:" + europetmp.toFixed(2) +" yrs").attr("x", 600).attr("y", 340);
-    focusTextBrown.html("In " + yearTmp + "- North America:" + natmp.toFixed(2) +" yrs").attr("x", 600).attr("y",320);
-    focusTextRed.html("In " + yearTmp + "- Asia:" + asiatmp.toFixed(2) +" yrs").attr("x", 600).attr("y", 420);
-    focusTextBlack.html("In " + yearTmp + "- Americas:" + americatmp.toFixed(2) +" yrs").attr("x", 600).attr("y", 380);
+    focusTextBrown.html("In " + yearTmp + "- North America:" + natmp.toFixed(2) +" yrs").attr("x", 600).attr("y",360);
+    focusTextGreen.html("In " + yearTmp + "- Europe:" + europetmp.toFixed(2) +" yrs").attr("x", 600).attr("y", 380);
+    focusTextMagenta.html("In " + yearTmp + "- Oceania:" + oceaniatmp.toFixed(2) +" yrs").attr("x", 600).attr("y", 400);
+    focusTextBlack.html("In " + yearTmp + "- Americas:" + americatmp.toFixed(2) +" yrs").attr("x", 600).attr("y", 420);
+    focusTextOrange.html("In " + yearTmp + "- Latin Americas:" + latintmp.toFixed(2) +" yrs").attr("x", 600).attr("y", 440);
+    focusTextRed.html("In " + yearTmp + "- Asia:" + asiatmp.toFixed(2) +" yrs").attr("x", 600).attr("y", 460);
+    focusTextBlue.html("In " + yearTmp + "- Africa:" + africatmp.toFixed(2) +" yrs").attr("x", 600).attr("y", 480);
      //console.log(worlddata);
   }
 
