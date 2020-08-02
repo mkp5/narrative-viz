@@ -197,10 +197,15 @@ async function init() {
     svg
     .append("text")
     .attr("x", 25)
-    .attr("y", 9)
+    .attr("y", 10)
     .text("1.North America has highest life expectancy and Africa has the lowest.")
     .style("font-size", "15px").style("color", "green");
-
+    svg
+    .append("text")
+    .attr("x", 25)
+    .attr("y", 25)
+    .text("2.Asia and Africa have more than 50% increase in life expectancy over 60 yrs.")
+    .style("font-size", "15px").style("color", "green");
 
 
   var focusBlue = svg.append('g').append('circle').style("fill", "blue").attr("stroke", "blue").attr('r', 4).style("opacity", 0);

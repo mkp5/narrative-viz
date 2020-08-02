@@ -1,13 +1,13 @@
 async function init() {
-  var selectedCountry = 'Afghanisthan';
+  var selectedCountry = 'Afghanistan';
   var margins = { top: 50, right: 100, bottom: 80, left: 50 },
     width = 960 - margins.left - margins.right,
     height = 650 - margins.top - margins.bottom;
 
   function reloadData(selectedGroup) {
-    console.log('reload data for selected country');
+    //console.log('reload data for selected country');
     var dataFilter = data.filter(function(d){return d.country==selectedGroup});
-    console.log('selectedGroup'+selectedGroup);
+    //console.log('selectedGroup'+selectedGroup);
     selectedCountry = selectedGroup;
     line.datum(dataFilter).transition().duration(1000).attr("d", d3.line().x(function(d) { return x(d.year) }).y(function(d) { return y(+d.value) }))
         .attr("stroke", "blue")
@@ -17,6 +17,7 @@ async function init() {
     focusWorld.style("opacity", 1);
     focusText.style("opacity",1);
     focusTextworld.style("opacity",1);
+    focusTextChange.style("opacity",1);
   }
 
   function mouseMove() {
@@ -24,16 +25,22 @@ async function init() {
     var tmp = data.filter(function(d){return d.country==selected1})
     var i = bisect(tmp, xtemp, 1);
     selectedData = tmp[i];
-    console.log(selectedData.year);
-    console.log('hello');
+    //console.log(selectedData);
+    //console.log(selectedData.year);
+    //console.log('hello');
     var ageTmp = worldjson[selectedData.year];
     //console.log(y(selectedData.value)+3);
     focus.attr("cx", x(selectedData.year)).attr("cy", y(selectedData.value)+3).attr('r',4);
     focusWorld.attr("cx", x(selectedData.year)).attr("cy", y(ageTmp)+3).attr('r',4);
     var tm = parseFloat(selectedData.value);
-    console.log(tm.toFixed(2));
+    //console.log(tm.toFixed(2));
+    console.log(selectedCountry);
+    if(typeof selectedCountry === 'undefined'){
+        selectedCountry = 'Afghanistan';
+    }
     focusText.html("In " + selectedData.year + " " + selectedCountry+": " + tm.toFixed(2) +" yrs").attr("x", 600).attr("y", 420);
     focusTextworld.html("In " + selectedData.year + " World: " + worldjson[selectedData.year]+" yrs.").attr("x", 600).attr("y", 400);
+    focusTextChange.html("Increase in life expectancy: " + countryChangeJson[selectedCountry] + "%").attr("x", 600).attr("y", 440);
     //console.log(worlddata);
   }
 
@@ -42,6 +49,7 @@ async function init() {
     focusWorld.style("opacity", 0);
     focusText.style("opacity", 0);
     focusTextworld.style("opacity", 0);
+    focusTextChange.style("opacity", 0);
   }
 
   var svg = d3.select("#scene_3").append("svg").attr("width", width + margins.left + margins.right).attr("height", height + margins.top + margins.bottom)
@@ -62,6 +70,19 @@ async function init() {
   //console.log('worlddata.size'+worlddata[0].year);
   const data = await d3.csv("./resources/countries-life-expectancy.csv");
 
+  const countryChange = await d3.csv("./resources/country-change.csv");
+  //console.log(countryChange);
+  countryChange.forEach(function (d) {
+    country = d.country;
+    change = d.change;
+  })
+  var countryChangeJson = {};
+  var j;
+    for (j = 0; j < countryChange.length; j++) {
+      countryChangeJson[countryChange[j].country] = countryChange[j].change;
+    }
+  //console.log('change');
+  //console.log(countryChangeJson);
   var selected1 = new Object();
   var allGroup = d3.map(data, function(d){return(d.country)}).keys()
   selected1 = allGroup[0];
@@ -80,7 +101,7 @@ async function init() {
 
  svg.append("text").attr("transform","translate(" + (width/2) + " ," +(height + margins.top ) + ")").style("text-anchor", "middle").text("Birth Year");
 
- var y = d3.scaleLinear().domain([25, d3.max(data, function(d) { return +d.value; })]).range([ height, 0 ]);
+ var y = d3.scaleLinear().domain([15, d3.max(data, function(d) { return +d.value; })]).range([ height, 0 ]);
  svg.append("g").attr("transform", "translate(10,0 )").call(d3.axisLeft(y)).style("font-size","10px");
 
      svg.append("path").attr("transform", "translate(10,0)").datum(worlddata).attr("fill", "none").attr("stroke", "black").attr("stroke-dasharray", ("3, 3")).attr("stroke-width", 2.5).attr("d", d3.line()
@@ -106,6 +127,8 @@ async function init() {
       .attr("fill", 'blue')
   var focusTextworld = svg.append('g').append('text').style("opacity", 0).attr("text-anchor", "left").attr("alignment-baseline", "middle")
       .attr("fill", 'black')
+  var focusTextChange = svg.append('g').append('text').style("opacity", 0).attr("text-anchor", "left").attr("alignment-baseline", "middle")
+      .attr("fill", 'brown')
   d3.select("#drop_down").on("change", function(d) {
       var newOption = d3.select(this).property("value");
       selected1 = newOption;
@@ -116,8 +139,12 @@ async function init() {
 
   svg.append("text")
     .attr("x", 25)
-    .attr("y", 35)
+    .attr("y", 15)
     .text("Comparison of each country with World data.")
-    .style("font-size", "15px");
-
+    .style("font-size", "12px");
+  svg.append("text")
+    .attr("x", 25)
+    .attr("y", 30)
+    .text("1. Life expectancy across the world has increased by 34.8% over 60 years.")
+    .style("font-size", "12px");
 }

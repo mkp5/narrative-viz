@@ -47,11 +47,11 @@ async function init() {
     .attr("d", d3.line()
       .x(function (d) { return x(d.year) })
       .y(function (d) { return y(d.age) })
-    )
+    );
   svg
     .append("text")
-    .attr("x", 300)
-    .attr("y", 300)
+    .attr("x", 25)
+    .attr("y", 30)
     .text("Observation:Increasing trend in life expectancy (at birth) across the world.")
     .style("font-size", "15px");
 

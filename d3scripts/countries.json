@@ -1,0 +1,1136 @@
+{
+    "Afghanistan": {
+        "country": "Afghanistan",
+        "region": "South Asia",
+        "year": "2018",
+        "value": "64.486"
+    },
+    "Albania": {
+        "country": "Albania",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "78.458"
+    },
+    "Algeria": {
+        "country": "Algeria",
+        "region": "Middle East & North Africa",
+        "year": "2018",
+        "value": "76.693"
+    },
+    "Angola": {
+        "country": "Angola",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "60.782"
+    },
+    "Antigua and Barbuda": {
+        "country": "Antigua and Barbuda",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "76.885"
+    },
+    "Argentina": {
+        "country": "Argentina",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "76.52"
+    },
+    "Armenia": {
+        "country": "Armenia",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "74.945"
+    },
+    "Aruba": {
+        "country": "Aruba",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "76.152"
+    },
+    "Australia": {
+        "country": "Australia",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "82.74878049"
+    },
+    "Austria": {
+        "country": "Austria",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "81.69268293"
+    },
+    "Azerbaijan": {
+        "country": "Azerbaijan",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "72.864"
+    },
+    "Bahamas": {
+        "country": "Bahamas",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "73.752"
+    },
+    "Bahrain": {
+        "country": "Bahrain",
+        "region": "Middle East & North Africa",
+        "year": "2018",
+        "value": "77.163"
+    },
+    "Bangladesh": {
+        "country": "Bangladesh",
+        "region": "South Asia",
+        "year": "2018",
+        "value": "72.32"
+    },
+    "Barbados": {
+        "country": "Barbados",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "79.081"
+    },
+    "Belarus": {
+        "country": "Belarus",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "74.17560976"
+    },
+    "Belgium": {
+        "country": "Belgium",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "81.59512195"
+    },
+    "Belize": {
+        "country": "Belize",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "74.496"
+    },
+    "Benin": {
+        "country": "Benin",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "61.47"
+    },
+    "Bhutan": {
+        "country": "Bhutan",
+        "region": "South Asia",
+        "year": "2018",
+        "value": "71.46"
+    },
+    "Bolivia": {
+        "country": "Bolivia",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "71.239"
+    },
+    "Bosnia and Herzegovina": {
+        "country": "Bosnia and Herzegovina",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "77.262"
+    },
+    "Botswana": {
+        "country": "Botswana",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "69.275"
+    },
+    "Brazil": {
+        "country": "Brazil",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "75.672"
+    },
+    "Brunei Darussalam": {
+        "country": "Brunei Darussalam",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "75.722"
+    },
+    "Bulgaria": {
+        "country": "Bulgaria",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "74.96341463"
+    },
+    "Burkina Faso": {
+        "country": "Burkina Faso",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "61.174"
+    },
+    "Burundi": {
+        "country": "Burundi",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "61.247"
+    },
+    "Cabo Verde": {
+        "country": "Cabo Verde",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "72.782"
+    },
+    "Cambodia": {
+        "country": "Cambodia",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "69.57"
+    },
+    "Cameroon": {
+        "country": "Cameroon",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "58.921"
+    },
+    "Canada": {
+        "country": "Canada",
+        "region": "North America",
+        "year": "2018",
+        "value": "81.94878049"
+    },
+    "Central African Republic": {
+        "country": "Central African Republic",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "52.805"
+    },
+    "Chad": {
+        "country": "Chad",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "53.977"
+    },
+    "Channel Islands": {
+        "country": "Channel Islands",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "82.928"
+    },
+    "Chile": {
+        "country": "Chile",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "80.042"
+    },
+    "China": {
+        "country": "China",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "76.704"
+    },
+    "Colombia": {
+        "country": "Colombia",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "77.109"
+    },
+    "Comoros": {
+        "country": "Comoros",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "64.118"
+    },
+    "Congo": {
+        "country": "Congo",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "60.368"
+    },
+    "Costa Rica": {
+        "country": "Costa Rica",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "80.095"
+    },
+    "Cote d'Ivoire": {
+        "country": "Cote d'Ivoire",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "57.422"
+    },
+    "Croatia": {
+        "country": "Croatia",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "78.07073171"
+    },
+    "Cuba": {
+        "country": "Cuba",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "78.726"
+    },
+    "Cyprus": {
+        "country": "Cyprus",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "80.828"
+    },
+    "Czech Republic": {
+        "country": "Czech Republic",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "79.02926829"
+    },
+    "Denmark": {
+        "country": "Denmark",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "80.95365854"
+    },
+    "Djibouti": {
+        "country": "Djibouti",
+        "region": "Middle East & North Africa",
+        "year": "2018",
+        "value": "66.582"
+    },
+    "Dominican Republic": {
+        "country": "Dominican Republic",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "73.892"
+    },
+    "Ecuador": {
+        "country": "Ecuador",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "76.8"
+    },
+    "Egypt": {
+        "country": "Egypt",
+        "region": "Middle East & North Africa",
+        "year": "2018",
+        "value": "71.825"
+    },
+    "El Salvador": {
+        "country": "El Salvador",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "73.096"
+    },
+    "Equatorial Guinea": {
+        "country": "Equatorial Guinea",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "58.402"
+    },
+    "Eritrea": {
+        "country": "Eritrea",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "65.941"
+    },
+    "Estonia": {
+        "country": "Estonia",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "78.24390244"
+    },
+    "Eswatini": {
+        "country": "Eswatini",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "59.401"
+    },
+    "Ethiopia": {
+        "country": "Ethiopia",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "66.24"
+    },
+    "Fiji": {
+        "country": "Fiji",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "67.341"
+    },
+    "Finland": {
+        "country": "Finland",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "81.73414634"
+    },
+    "France": {
+        "country": "France",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "82.72439024"
+    },
+    "French Polynesia": {
+        "country": "French Polynesia",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "77.462"
+    },
+    "Gabon": {
+        "country": "Gabon",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "66.187"
+    },
+    "Gambia": {
+        "country": "Gambia",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "61.735"
+    },
+    "Georgia": {
+        "country": "Georgia",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "73.6"
+    },
+    "Germany": {
+        "country": "Germany",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "80.89268293"
+    },
+    "Ghana": {
+        "country": "Ghana",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "63.78"
+    },
+    "Greece": {
+        "country": "Greece",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "81.78780488"
+    },
+    "Grenada": {
+        "country": "Grenada",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "72.384"
+    },
+    "Guam": {
+        "country": "Guam",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "79.859"
+    },
+    "Guatemala": {
+        "country": "Guatemala",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "74.063"
+    },
+    "Guinea": {
+        "country": "Guinea",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "61.185"
+    },
+    "Guinea-Bissau": {
+        "country": "Guinea-Bissau",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "58.003"
+    },
+    "Guyana": {
+        "country": "Guyana",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "69.774"
+    },
+    "Haiti": {
+        "country": "Haiti",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "63.66"
+    },
+    "Honduras": {
+        "country": "Honduras",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "75.088"
+    },
+    "Hong Kong": {
+        "country": "Hong Kong",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "84.93414634"
+    },
+    "Hungary": {
+        "country": "Hungary",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "76.06585366"
+    },
+    "Iceland": {
+        "country": "Iceland",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "82.86097561"
+    },
+    "India": {
+        "country": "India",
+        "region": "South Asia",
+        "year": "2018",
+        "value": "69.416"
+    },
+    "Indonesia": {
+        "country": "Indonesia",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "71.509"
+    },
+    "Iran": {
+        "country": "Iran",
+        "region": "Middle East & North Africa",
+        "year": "2018",
+        "value": "76.479"
+    },
+    "Iraq": {
+        "country": "Iraq",
+        "region": "Middle East & North Africa",
+        "year": "2018",
+        "value": "70.454"
+    },
+    "Ireland": {
+        "country": "Ireland",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "82.25609756"
+    },
+    "Israel": {
+        "country": "Israel",
+        "region": "Middle East & North Africa",
+        "year": "2018",
+        "value": "82.80243902"
+    },
+    "Italy": {
+        "country": "Italy",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "83.34634146"
+    },
+    "Jamaica": {
+        "country": "Jamaica",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "74.368"
+    },
+    "Japan": {
+        "country": "Japan",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "84.21097561"
+    },
+    "Jordan": {
+        "country": "Jordan",
+        "region": "Middle East & North Africa",
+        "year": "2018",
+        "value": "74.405"
+    },
+    "Kazakhstan": {
+        "country": "Kazakhstan",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "73.15"
+    },
+    "Kenya": {
+        "country": "Kenya",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "66.342"
+    },
+    "Kiribati": {
+        "country": "Kiribati",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "68.116"
+    },
+    "Korea": {
+        "country": "Korea",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "72.095"
+    },
+    "Kuwait": {
+        "country": "Kuwait",
+        "region": "Middle East & North Africa",
+        "year": "2018",
+        "value": "75.398"
+    },
+    "Kyrgyz Republic": {
+        "country": "Kyrgyz Republic",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "71.4"
+    },
+    "Lao PDR": {
+        "country": "Lao PDR",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "67.61"
+    },
+    "Latvia": {
+        "country": "Latvia",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "74.78292683"
+    },
+    "Lebanon": {
+        "country": "Lebanon",
+        "region": "Middle East & North Africa",
+        "year": "2018",
+        "value": "78.875"
+    },
+    "Lesotho": {
+        "country": "Lesotho",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "53.705"
+    },
+    "Liberia": {
+        "country": "Liberia",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "63.73"
+    },
+    "Libya": {
+        "country": "Libya",
+        "region": "Middle East & North Africa",
+        "year": "2018",
+        "value": "72.724"
+    },
+    "Liechtenstein": {
+        "country": "Liechtenstein",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "83.04146341"
+    },
+    "Lithuania": {
+        "country": "Lithuania",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "75.6804878"
+    },
+    "Luxembourg": {
+        "country": "Luxembourg",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "82.29512195"
+    },
+    "Macao": {
+        "country": "Macao",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "84.118"
+    },
+    "Madagascar": {
+        "country": "Madagascar",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "66.681"
+    },
+    "Malawi": {
+        "country": "Malawi",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "63.798"
+    },
+    "Malaysia": {
+        "country": "Malaysia",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "75.997"
+    },
+    "Maldives": {
+        "country": "Maldives",
+        "region": "South Asia",
+        "year": "2018",
+        "value": "78.627"
+    },
+    "Mali": {
+        "country": "Mali",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "58.893"
+    },
+    "Malta": {
+        "country": "Malta",
+        "region": "Middle East & North Africa",
+        "year": "2018",
+        "value": "82.44878049"
+    },
+    "Mauritania": {
+        "country": "Mauritania",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "64.704"
+    },
+    "Mauritius": {
+        "country": "Mauritius",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "74.41634146"
+    },
+    "Mexico": {
+        "country": "Mexico",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "74.992"
+    },
+    "Micronesia": {
+        "country": "Micronesia",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "67.755"
+    },
+    "Moldova": {
+        "country": "Moldova",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "71.808"
+    },
+    "Mongolia": {
+        "country": "Mongolia",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "69.689"
+    },
+    "Montenegro": {
+        "country": "Montenegro",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "76.77"
+    },
+    "Morocco": {
+        "country": "Morocco",
+        "region": "Middle East & North Africa",
+        "year": "2018",
+        "value": "76.453"
+    },
+    "Mozambique": {
+        "country": "Mozambique",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "60.163"
+    },
+    "Myanmar": {
+        "country": "Myanmar",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "66.867"
+    },
+    "Namibia": {
+        "country": "Namibia",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "63.373"
+    },
+    "Nepal": {
+        "country": "Nepal",
+        "region": "South Asia",
+        "year": "2018",
+        "value": "70.478"
+    },
+    "Netherlands": {
+        "country": "Netherlands",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "81.81219512"
+    },
+    "New Caledonia": {
+        "country": "New Caledonia",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "77.14878049"
+    },
+    "New Zealand": {
+        "country": "New Zealand",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "81.85853659"
+    },
+    "Nicaragua": {
+        "country": "Nicaragua",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "74.275"
+    },
+    "Niger": {
+        "country": "Niger",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "62.024"
+    },
+    "Nigeria": {
+        "country": "Nigeria",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "54.332"
+    },
+    "North Macedonia": {
+        "country": "North Macedonia",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "75.688"
+    },
+    "Norway": {
+        "country": "Norway",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "82.75853659"
+    },
+    "Oman": {
+        "country": "Oman",
+        "region": "Middle East & North Africa",
+        "year": "2018",
+        "value": "77.633"
+    },
+    "Pakistan": {
+        "country": "Pakistan",
+        "region": "South Asia",
+        "year": "2018",
+        "value": "67.114"
+    },
+    "Panama": {
+        "country": "Panama",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "78.329"
+    },
+    "Papua New Guinea": {
+        "country": "Papua New Guinea",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "64.263"
+    },
+    "Paraguay": {
+        "country": "Paraguay",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "74.131"
+    },
+    "Peru": {
+        "country": "Peru",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "76.516"
+    },
+    "Philippines": {
+        "country": "Philippines",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "71.095"
+    },
+    "Poland": {
+        "country": "Poland",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "77.60243902"
+    },
+    "Portugal": {
+        "country": "Portugal",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "81.32439024"
+    },
+    "Puerto Rico": {
+        "country": "Puerto Rico",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "79.77819512"
+    },
+    "Qatar": {
+        "country": "Qatar",
+        "region": "Middle East & North Africa",
+        "year": "2018",
+        "value": "80.1"
+    },
+    "Romania": {
+        "country": "Romania",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "75.35853659"
+    },
+    "Russian Federation": {
+        "country": "Russian Federation",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "72.65731707"
+    },
+    "Rwanda": {
+        "country": "Rwanda",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "68.7"
+    },
+    "Samoa": {
+        "country": "Samoa",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "73.187"
+    },
+    "Sao Tome and Principe": {
+        "country": "Sao Tome and Principe",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "70.17"
+    },
+    "Saudi Arabia": {
+        "country": "Saudi Arabia",
+        "region": "Middle East & North Africa",
+        "year": "2018",
+        "value": "74.998"
+    },
+    "Senegal": {
+        "country": "Senegal",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "67.665"
+    },
+    "Sierra Leone": {
+        "country": "Sierra Leone",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "54.309"
+    },
+    "Singapore": {
+        "country": "Singapore",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "83.14634146"
+    },
+    "Slovak Republic": {
+        "country": "Slovak Republic",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "77.26585366"
+    },
+    "Slovenia": {
+        "country": "Slovenia",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "81.37804878"
+    },
+    "Solomon Islands": {
+        "country": "Solomon Islands",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "72.835"
+    },
+    "Somalia": {
+        "country": "Somalia",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "57.068"
+    },
+    "South Africa": {
+        "country": "South Africa",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "63.857"
+    },
+    "South Sudan": {
+        "country": "South Sudan",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "57.604"
+    },
+    "Spain": {
+        "country": "Spain",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "83.43170732"
+    },
+    "Sri Lanka": {
+        "country": "Sri Lanka",
+        "region": "South Asia",
+        "year": "2018",
+        "value": "76.812"
+    },
+    "St. Lucia": {
+        "country": "St. Lucia",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "76.057"
+    },
+    "St. Vincent and the Grenadines": {
+        "country": "St. Vincent and the Grenadines",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "72.415"
+    },
+    "Sudan": {
+        "country": "Sudan",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "65.095"
+    },
+    "Suriname": {
+        "country": "Suriname",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "71.57"
+    },
+    "Sweden": {
+        "country": "Sweden",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "82.55853659"
+    },
+    "Switzerland": {
+        "country": "Switzerland",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "83.75365854"
+    },
+    "Syrian Arab Republic": {
+        "country": "Syrian Arab Republic",
+        "region": "Middle East & North Africa",
+        "year": "2018",
+        "value": "71.779"
+    },
+    "Tajikistan": {
+        "country": "Tajikistan",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "70.879"
+    },
+    "Tanzania": {
+        "country": "Tanzania",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "65.015"
+    },
+    "Thailand": {
+        "country": "Thailand",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "76.931"
+    },
+    "Timor-Leste": {
+        "country": "Timor-Leste",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "69.26"
+    },
+    "Togo": {
+        "country": "Togo",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "60.76"
+    },
+    "Tonga": {
+        "country": "Tonga",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "70.801"
+    },
+    "Trinidad and Tobago": {
+        "country": "Trinidad and Tobago",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "73.38"
+    },
+    "Tunisia": {
+        "country": "Tunisia",
+        "region": "Middle East & North Africa",
+        "year": "2018",
+        "value": "76.505"
+    },
+    "Turkey": {
+        "country": "Turkey",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "77.437"
+    },
+    "Turkmenistan": {
+        "country": "Turkmenistan",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "68.073"
+    },
+    "Uganda": {
+        "country": "Uganda",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "62.973"
+    },
+    "Ukraine": {
+        "country": "Ukraine",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "71.58268293"
+    },
+    "United Arab Emirates": {
+        "country": "United Arab Emirates",
+        "region": "Middle East & North Africa",
+        "year": "2018",
+        "value": "77.814"
+    },
+    "United Kingdom": {
+        "country": "United Kingdom",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "81.25609756"
+    },
+    "United States": {
+        "country": "United States",
+        "region": "North America",
+        "year": "2018",
+        "value": "78.53902439"
+    },
+    "Uruguay": {
+        "country": "Uruguay",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "77.77"
+    },
+    "Uzbekistan": {
+        "country": "Uzbekistan",
+        "region": "Europe & Central Asia",
+        "year": "2018",
+        "value": "71.573"
+    },
+    "Vanuatu": {
+        "country": "Vanuatu",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "70.323"
+    },
+    "Venezuela": {
+        "country": "Venezuela",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "72.128"
+    },
+    "Vietnam": {
+        "country": "Vietnam",
+        "region": "East Asia & Pacific",
+        "year": "2018",
+        "value": "75.317"
+    },
+    "Virgin Islands (U.S.)": {
+        "country": "Virgin Islands (U.S.)",
+        "region": "Latin America & Caribbean",
+        "year": "2018",
+        "value": "79.56829268"
+    },
+    "Yemen": {
+        "country": "Yemen",
+        "region": "Middle East & North Africa",
+        "year": "2018",
+        "value": "66.096"
+    },
+    "Zambia": {
+        "country": "Zambia",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "63.51"
+    },
+    "Zimbabwe": {
+        "country": "Zimbabwe",
+        "region": "Sub-Saharan Africa",
+        "year": "2018",
+        "value": "61.195"
+    }
+}
