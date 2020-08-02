@@ -8,31 +8,35 @@
   <script src="https://d3js.org/d3.v5.min.js"></script>
 </head>
 <body onload='init();'>
+<script src="d3scripts/scene1.js"></script>
 
   <div id="header">
     <h2>World: Life Expectancy at birth.</h2>
   </div>
   <table>
     <tr>
-      <td style="text-align:right;"><a href="scene2.html" class="next" style="width:120px">Female vs Male</a>
+      <td style="text-align:right;"><a href="scene2.html" class="next">Next</a>
       </td>
     </tr>
+    <tr><td style="text-align:right;"><div id="disclaimer" style="font-size: 10;color: red;">*Mouseover on the path to read the values.</div></td></tr>
   </table>
-
   <div class="row">
   <div class="column" style="text-align: left;">
-    <p><b>Definition: </b>Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.</p>
-  <p>
+    <p>
+      <b>Definition: </b>
+      Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.</p>
+    <p>
     Life expectancy at birth across the world is observed to be in increasing trend.
     Many factors contributed towards this increasing trend. We will compare different data across multiple scenarios to understand better. </p>
-    <p><b>Aggregation Method: </b>Weighted average</p>
+    <p style="color: red;">
+      <b>TIP: </b>
+      To read the values in this narration(all scenes), the reader can mouseover on the line graph at any point.
+    </p>
   </div>
   <div class="column">
     <div id="scene_1" style="width: 960px;text-align: center;">
     </div>
   </div>
 </div>
-
-  <script src="d3scripts/scene1.js"></script>
 </body>
 </html>

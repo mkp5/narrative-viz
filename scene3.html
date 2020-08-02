@@ -1,52 +1,57 @@
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <title>Life Expectancy at Birth</title>
-  <link rel="stylesheet" type="text/css" href="resources/style.css">
-  <!-- Load d3 library v5 -->
-  <script src="https://d3js.org/d3.v5.min.js"></script>
-</head>
-<body onload='init();'>
-  <div id="header">
-    <h2>Explore Life Expectancy for each Country</h2>
-  </div>
-  <table>
-    <tr>
-      <td style="text-align:right;"><a href="scene1.html" class="next">Restart</a>
-      </td>
-    </tr>
-  </table>
-
-  <div class="row">
-  <div class="column" style="text-align: left;">
-    <p><b>Definition: </b>This is a comparison of life expectancy of each country against the world population.
-  This helps to observe the change in trend of this property against the rest of the world.</p>
-    <p>
-      <b>Action Items: </b> Worldwide, healthy life expectancy can be increased by 5-10 years if governments and individuals make combined efforts against the major health risks in each region, the World Health Organization (WHO) says in its new yearly report.
-      <br/>
-      As per WHO' World Health Report 2002, reducing the below risks can lower the mortality rate and boost the life expectancy of mankind.
-      <ul style="font-weight: bold;font-size: 0.9rem;">
-        <li>Underweight/under-nutrition</li>
-        <li>Unsafe sex</li>
-        <li>High blood pressure and cholesterol</li>
-        <li>Tobacco Use</li>
-        <li>Unsafe Water and Sanitation</li>
-        <li>Iron deficiency</li>
-      </ul>
-
-    </p>
-  </div>
-  <div class="column">
-    <div id="scene_3" style="width: 960px;">
-      <span style="color: black;">------- World</span>  &nbsp;<span class="legend-country" style="color: black;"></span> Country &nbsp;
-        <div style="text-align:left;padding-left: 400;"><select id="drop_down"></select>
-          <div id="disclaimer" style="font-size: 10;color: red;">*Mouseover on the path to compare the values.</div>
-        </div>
+  <head>
+    <meta charset="utf-8">
+    <title>Life Expectancy at Birth</title>
+    <link rel="stylesheet" type="text/css" href="resources/style.css">
+    <!-- Load d3 library v5 -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+  </head>
+  <body onload='init();'>
+    <script src="d3scripts/scene3.js"></script>
+    <div id="header">
+      <h2>Explore Life Expectancy for each Country</h2>
+    </div>
+    <table>
+      <tr>
+        <td style="text-align:right;"><a href="scene1.html" class="next">Restart</a>
+        </td>
+      </tr>
+    </table>
+    <div class="row">
+    <div class="column" style="text-align: left;">
+      <p>
+        <b>Definition: </b>
+        This is a comparison of life expectancy of each country against the world population.
+        This helps to observe the change in trend of this property against the rest of the world.
+      </p>
+      <p>
+        <b>Action Items: </b> Worldwide, healthy life expectancy can be increased by 5-10 years if governments and individuals make combined efforts against the major health risks in each region, the World Health Organization (WHO) says in its new yearly report.
+        <br/>
+        As per WHO' World Health Report 2002, reducing the below risks can lower the mortality rate and boost the life expectancy of mankind.
+        <ul style="font-weight: bold;font-size: 0.9rem;">
+          <li>Underweight/under-nutrition</li>
+          <li>Unsafe sex</li>
+          <li>High blood pressure and cholesterol</li>
+          <li>Tobacco Use</li>
+          <li>Unsafe Water and Sanitation</li>
+          <li>Iron deficiency</li>
+        </ul>
+      </p>
+      <p style="color: red;">
+        <b>TIP: </b>
+        To read the values in this narration(all scenes), the reader can mouseover on the line graph at any point.
+      </p>
+    </div>
+    <div class="column">
+      <div id="scene_3" style="width: 960px;">
+        <span style="color: black;">------- World</span>  &nbsp;<span class="legend-country" style="color: black;"></span> Country &nbsp;
+          <div style="text-align:left;padding-left: 400;"><select id="drop_down"></select>
+            <div id="disclaimer" style="font-size: 10;color: red; font-weight: bold;">*Mouseover on the path to compare the values.
+            </div>
+          </div>
+      </div>
     </div>
   </div>
-</div>
-
-  <script src="d3scripts/scene3.js"></script>
-</body>
+  </body>
 </html>

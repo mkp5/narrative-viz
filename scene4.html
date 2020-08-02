@@ -1,5 +1,4 @@
 <html>
-
 <head>
   <meta charset="utf-8">
   <title>Regions: Life Expectancy at birth.</title>
@@ -7,37 +6,46 @@
   <!-- Load d3 library v5 -->
   <script src="https://d3js.org/d3.v5.min.js"></script>
 </head>
-<body onload='init();'>
-
-  <div id="header">
-    <h2>Regions: Life Expectancy at birth.</h2>
-  </div>
-  <table>
-    <tr>
-      <td style="text-align:right;"><a href="scene3.html" class="next">Country</a>
-      </td>
-    </tr>
-  </table>
-
-  <div class="row">
-  <div class="column" style="text-align: left;">
-  <p>
-    This is the comparison of life expectancy in different regions across the world. The data shows that the life expectency is in increasing trend in all regions.</p>
-  <p>
-    North America tops the chart with highest life expectancy and Africa recorded the least value.  There are few regions with more than 50% increase in life expectancy over a period of 6 decades.</p>
-  </div>
-  <div class="column">
-    <div id="scene_1" style="width: 960px;text-align: center;">
-      <div id="title">
-        <u>Compare life expectancy at birth across different Regions.</u><br/>
-            <span class="legend-female"></span> Oceania &nbsp;<span class="legend-male"></span> Africa &nbsp;
-            <span class="legend-americas"></span> Americas &nbsp;<span class="legend-europe"></span> Europe &nbsp;
-            <span class="legend-latin"></span> Latin America and Caribbean &nbsp;<span class="legend-asia"></span> Asia &nbsp;
-            <span class="legend-northamerica"></span> North America &nbsp;
+  <body onload='init();'>
+    <script src="d3scripts/scene4.js"></script>
+    <div id="header">
+      <h2>Regions: Life Expectancy at birth.</h2>
+    </div>
+    <table>
+      <tr>
+        <td style="text-align:right;">
+          <a href="scene2.html" class="next">Back</a>
+          <a href="scene3.html" class="next">Next</a>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:right;">
+          <div id="disclaimer" style="font-size: 10;color: red;">*Mouseover on the path to read the values.</div>
+        </td>
+      </tr>
+    </table>
+    <div class="row">
+    <div class="column" style="text-align: left;">
+    <p>
+      This is the comparison of life expectancy in different regions across the world. The data shows that the life expectency is in increasing trend in all regions.</p>
+    <p>
+      North America tops the chart with highest life expectancy and Africa recorded the least value.  There are few regions with more than 50% increase in life expectancy over a period of 6 decades.</p>
+      <p style="color: red;">
+        <b>TIP: </b>
+        To read the values in this narration(all scenes), the reader can mouseover on the line graph at any point.
+      </p>
+    </div>
+    <div class="column">
+      <div id="scene_1" style="width: 960px;text-align: center;">
+        <div id="title">
+              <u>Compare life expectancy at birth across different Regions.</u><br/>
+              <span class="legend-female"></span> Oceania &nbsp;<span class="legend-male"></span> Africa &nbsp;
+              <span class="legend-americas"></span> Americas &nbsp;<span class="legend-europe"></span> Europe &nbsp;
+              <span class="legend-latin"></span> Latin America and Caribbean &nbsp;<span class="legend-asia"></span> Asia &nbsp;
+              <span class="legend-northamerica"></span> North America &nbsp;
+        </div>
       </div>
     </div>
   </div>
-</div>
-  <script src="d3scripts/scene4.js"></script>
-</body>
+  </body>
 </html>
