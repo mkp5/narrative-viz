@@ -72,16 +72,28 @@ async function init() {
    svg
     .append("text")
     .attr("x", 25)
-    .attr("y", 35)
+    .attr("y", 25)
     .text("1.Female Life expectancy is higher than Male.")
-    .style("font-size", "15px");
-   svg
+    .style("font-size", "12px");
+  svg
     .append("text")
     .attr("x", 25)
-    .attr("y", 55)
+    .attr("y", 45)
     .text("2.Both Male and Female have increasing trend.")
-    .style("font-size", "15px");
+    .style("font-size", "12px");
 
+  svg
+    .append("text")
+    .attr("x", 25)
+    .attr("y", 65)
+    .text("3.Change is female life expectancy is 34.82%")
+    .style("font-size", "12px");
+  svg
+    .append("text")
+    .attr("x", 25)
+    .attr("y", 85)
+    .text("4.Change is male life expectancy is 36.38%")
+    .style("font-size", "12px");
 
     var focus = svg.append('g').append('circle').style("fill", "black").attr("stroke", "black").attr('r', 4).style("opacity", 0);
     var focusfemale = svg.append('g').append('circle').style("fill", "purple").attr("stroke", "purple").attr('r', 4).style("opacity", 0);

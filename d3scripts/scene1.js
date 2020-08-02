@@ -51,11 +51,17 @@ async function init() {
   svg
     .append("text")
     .attr("x", 25)
-    .attr("y", 30)
-    .text("Observation:Increasing trend in life expectancy (at birth) across the world.")
-    .style("font-size", "15px");
+    .attr("y", 25)
+    .text("1:Increasing trend in life expectancy (at birth) across the world.")
+    .style("font-size", "12px");
 
-     var focus = svg.append('g').append('circle').style("fill", "black").attr("stroke", "black").attr('r', 4).style("opacity", 0);
+  svg
+    .append("text")
+    .attr("x", 25)
+    .attr("y", 40)
+    .text("2:Change in life expectancy across the world is 34.8%")
+    .style("font-size", "12px");
+         var focus = svg.append('g').append('circle').style("fill", "black").attr("stroke", "black").attr('r', 4).style("opacity", 0);
 
   var focusText = svg.append('g').append('text').style("opacity", 0).attr("text-anchor", "left").attr("alignment-baseline", "middle")
       .attr("fill", 'brown');

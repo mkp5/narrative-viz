@@ -147,4 +147,9 @@ async function init() {
     .attr("y", 30)
     .text("1. Life expectancy across the world has increased by 34.8% over 60 years.")
     .style("font-size", "12px");
+  svg.append("text")
+    .attr("x", 25)
+    .attr("y", 45)
+    .text("2. Change in Life expectancy in each country is displayed below.")
+    .style("font-size", "12px");
 }
